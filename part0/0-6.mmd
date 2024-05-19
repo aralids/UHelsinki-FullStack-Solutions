@@ -3,7 +3,7 @@ sequenceDiagram
     participant server
 
     activate browser
-    browser->>server: add new note to DOM
+    browser->>browser: add new note to DOM
     deactivate browser
 
     browser->>server: POST [note] https://studies.cs.helsinki.fi/exampleapp/new_note_spa
